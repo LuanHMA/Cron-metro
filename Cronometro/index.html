@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cronometro</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="title">Cronômetro</h1>
+        <h2 class="subtitle">Feito por Luan Henrique</h2>
+        <p class="time"><span class="hour">00</span>:<span class="minute">00</span>:<span class="second">00</span></p>
+
+        <div class="buttons-contain">
+            <button class="start" onclick="start()">Iniciar</button>
+
+            <button class="stop" onclick="stoped()">Parar</button>
+
+            <button class="reset" onclick="reset()">Resetar</button>
+        </div>
+
+        <div class="times-container">
+           <ul class="list">
+               <li style="display:none;"><span class="position">#1 - </span>  
+                <span class="time-hour">00</span>:<span class="time-minute">00</span>:<span class="time-second">00</span>
+            
+            </li>
+           </ul>
+
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
